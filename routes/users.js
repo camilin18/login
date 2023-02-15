@@ -79,7 +79,7 @@ router.post('/register', (req, res) => {
 // Login
 router.post('/login', (req, res, next) => {
   passport.authenticate('local', {
-    successRedirect: 'https://camilin18.github.io/tilin-/',
+    successRedirect: 'https://tilin.onrender.com/',
     failureRedirect: '/users/login',
     failureFlash: true
   })(req, res, next);
